@@ -1,5 +1,6 @@
 # Awesome Temporal Action Segmentation
-
+![Temporal Action Segmentation](./TAS.png)
+A curated list of awesome temporal action segmentation resources. Inspired by [awesome-machine-learning-resources](https://github.com/ZhiningLiu1998/awesome-machine-learning-resources).
 ## Table of Contents
 - [The Task](#the-task)
 - [Datasets](#Datasets)
@@ -26,39 +27,52 @@
 Temporal action segmentation aims at segmenting actions and densely labeling frames in long-range videos.
 
 ## Surveys \& Overviews
-Temporal Action Segmentation: An Analysis of Modern Technique | [[pdf]]() 
-
+- Temporal Action Segmentation: An Analysis of Modern Technique
+  [[pdf]]() 
+  - Guodong Ding, Fadime Sener, and Angela Yao
 
 ## Datasets
 There are multiple datasets that have been used to benchmark the perfomance of the temporal action segmentation approaches. The most commonly adopted datasets are the as follows:
 
 ### Breakfast
+- The Language of Actions: Recovering the Syntax and Semantics of Goal-Directed Human Activities 
+  [[pdf]](https://openaccess.thecvf.com/content_cvpr_2014/papers/Kuehne_The_Language_of_2014_CVPR_paper.pdf) 
+  - Hilde Kuehne, Ali Arslan, and Thomas Serre, *CVPR 2014*.
+
 Breakfast Actions targets recording videos ''in the wild'', in 18 different kitchens, as opposed to the controlled lab environments in the previous datasets~\cite{fathi2011learning,stein2013combining}. The participants are not given any scrips and the recordings are unrehearsed and undirected. The dataset is composed of the 10 breakfast-related activities.  
 This dataset is recorded with 52 participants with multiple cameras, varies from 3 to 5, all from a third-person point of view. There are 1712 videos, when accounting for the multi-camera views.
 
-[[pdf]]() | [[Download]]()
-
-
 ### GTEA
+- Learning to Recognize Objects in Egocentric Activities 
+  [[pdf]](https://arxiv.org/pdf/2102.08065.pdf) 
+  - Alireza Fatih, Xiaofeng Ren, and M James Rehg, *CVPR 2011*.
+
 contains 28 videos recorded in a single kitchen from seven procedural activities. 
 The videos are recorded with a camera mounted on a cap, worn by four participants. 
 
-[[pdf]]() | [[Download]]()
 
 ### 50Salads
+
+- Combining Embedded Accelerometers with Computer Vision for Recognizing Food Preparation Activities 
+  [[pdf]](https://doi.org/10.1145/2493432.2493482) 
+  - Sebastian Stein, and Stephen J Mckenna, *UbiComp 2013*.
+
 is composed of 50 recorded videos of 25 participants making two different mixed salads. The videos are captured by a camera with a top-down view onto the work-surface. The participants are provided with recipe steps which are randomly sampled from a statistical recipe model.
 
-[[pdf]]() | [[Download]]()
 
 ### YouTube Instructional
-is a recently collected dataset where 53 participants were asked to dissemble and assemble take apart toys without given any instructions which resulted in  realistic sequences with great variation in action ordering. The dataset is annotated with fine-grained, hand-object interactions, and coarse action labels which are composed of multiple fine-grained action segments related to the attaching or detaching of a vehicle part. The authors evaluated their dataset for temporal action segmentation using the coarse labels. 
+- Unsupervised Learning from Narrated Instruction Videos 
+  [[pdf]](https://doi.org/10.1109/CVPR.2016.495) 
+  - Jean-Baptiste Alayrac, Piotr Bojanowski, Nishant Agrawal, Josef Sivic, Ivan Laptev, and Simon Lacoste-Julien, *CVPR 2016*.
 
-[[pdf]]() | [[Download]]()
+is a recently collected dataset where 53 participants were asked to dissemble and assemble take apart toys without given any instructions which resulted in  realistic sequences with great variation in action ordering. The dataset is annotated with fine-grained, hand-object interactions, and coarse action labels which are composed of multiple fine-grained action segments related to the attaching or detaching of a vehicle part. The authors evaluated their dataset for temporal action segmentation using the coarse labels. 
 
 ### Assembly101
-is a recently collected dataset where 53 participants were asked to dissemble and assemble take apart toys without given any instructions which resulted in  realistic sequences with great variation in action ordering. The dataset is annotated with fine-grained, hand-object interactions, and coarse action labels which are composed of multiple fine-grained action segments related to the attaching or detaching of a vehicle part. The authors evaluated their dataset for temporal action segmentation using the coarse labels. 
+- Assembly101: A Large-Scale Multi-View Video Dataset for Understanding Procedural Activities 
+  [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Sener_Assembly101_A_Large-Scale_Multi-View_Video_Dataset_for_Understanding_Procedural_Activities_CVPR_2022_paper.pdf) 
+  - Fadime Sener, Dibyadip Chatterjee, Daniel Shelepov, Kun He, Dipika Singhania, Robert Wang, and others, *CVPR 2022*.
 
-[[pdf]]() | [[Download]]()
+is a recently collected dataset where 53 participants were asked to dissemble and assemble take apart toys without given any instructions which resulted in  realistic sequences with great variation in action ordering. The dataset is annotated with fine-grained, hand-object interactions, and coarse action labels which are composed of multiple fine-grained action segments related to the attaching or detaching of a vehicle part. The authors evaluated their dataset for temporal action segmentation using the coarse labels. 
 
 ## Evaluation
 
