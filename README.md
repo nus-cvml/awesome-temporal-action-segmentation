@@ -302,7 +302,7 @@ If you find this repository helpful in your research, please consider citing our
 @article{ding2022temporal,
     title={Temporal Action Segmentation: An Analysis of Modern Technique},
     author={Ding, Guodong and Sener, Fadime and Yao, Angela},
-    journal={arXiv preprint arXiv:2210.},
+    journal={arXiv preprint arXiv:2210.10352},
     year={2022}
 }
 ```
