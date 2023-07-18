@@ -46,8 +46,7 @@ There are multiple datasets that have been used to benchmark the perfomance of t
   [[pdf]](https://openaccess.thecvf.com/content_cvpr_2014/papers/Kuehne_The_Language_of_2014_CVPR_paper.pdf) 
   - Hilde Kuehne, Ali Arslan, and Thomas Serre, *CVPR 2014*.
 
-Breakfast Actions targets recording videos ''in the wild'', in 18 different kitchens, as opposed to the controlled lab environments in the previous datasets~\cite{fathi2011learning,stein2013combining}. The participants are not given any scrips and the recordings are unrehearsed and undirected. The dataset is composed of the 10 breakfast-related activities.  
-This dataset is recorded with 52 participants with multiple cameras, varies from 3 to 5, all from a third-person point of view. There are 1712 videos, when accounting for the multi-camera views.
+targets recording videos ''in the wild'', in 18 different kitchens. The participants are not given any scrips and the recordings are unrehearsed and undirected. The dataset is composed of the 10 breakfast-related activities. This dataset is recorded with 52 participants with multiple cameras, varies from 3 to 5, all from a third-person point of view. There are 1712 videos, when accounting for the multi-camera views.
 
 ### GTEA
 - Learning to Recognize Objects in Egocentric Activities 
@@ -96,7 +95,7 @@ $\text{F1} = 2 \cdot \frac{\text{precision}\times \text{recall}}{\text{precision
 ### Edit score
 The Edit Score is computed using the Levenshtein distance $e$, which quantifies how similar two sequences are to each other by counting the minimum number of operations required to convert one (segment) string into another. 
 
-$\text{Edit} = \frac{1-e(X,Y)}{\text{max}(|X|,|Y|)} \cdot 100$
+$\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 
 ## Paper List
 ### Fully-Supervised
