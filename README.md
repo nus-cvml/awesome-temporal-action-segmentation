@@ -265,7 +265,7 @@ $\text{Edit} = \frac{1-e(X,Y)}{\text{max}(|X|,|Y|)} \cdot 100$
 - Leveraging triplet loss for unsupervised action segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Bueno-Benito_Leveraging_Triplet_Loss_for_Unsupervised_Action_Segmentation_CVPRW_2023_paper.pdf)
   [[code]](https://github.com/elenabbbuenob/TSA-ActionSeg)
-    - E. Bueno-Benito, B. Tura, and M. Dimiccoli, *CVPRW 2023*.
+    - Elena Belen Bueno-Benito, Biel Tura Vecino, and Mariella Dimiccoli, *CVPRW 2023*.
 - TAEC: Unsupervised action segmentation with temporal-Aware embedding and clustering,
   [[pdf]](https://arxiv.org/pdf/2303.05166.pdf)
     - Wei Lin, Anna Kukleva, Horst Possegger, Hilde Kuehne, and Horst Bischof, *CEURW 2023*.
@@ -327,6 +327,7 @@ $\text{Edit} = \frac{1-e(X,Y)}{\text{max}(|X|,|Y|)} \cdot 100$
   [[pdf]](https://arxiv.org/pdf/2207.08653.pdf)
   [[code]](https://github.com/dinggd/semitas)
     - Guodong Ding, and Angela Yao, *ECCV 2022*.
+
 
 
 
