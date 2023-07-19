@@ -184,6 +184,11 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[code]](https://github.com/alexanderrichard/squirrel)
     - Alexander Richard, and Juergen Gall, *CVPR 2016*.
 ### Weakly-Supervised
+
+#### 2023
+- Reducing the Label Bias for Timestamp Supervised Temporal Action Segmentation, 
+[[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Reducing_the_Label_Bias_for_Timestamp_Supervised_Temporal_Action_Segmentation_CVPR_2023_paper.pdf)
+    - Kaiyuan Liu, Yunheng Li, Shenglan Liu, Chenwei Tan, and Zihang Shao, in *CVPR, 2023*.
 #### 2022
 - A Generalized &amp; Robust Framework For Timestamp Supervision in Temporal Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2207.10137.pdf)
