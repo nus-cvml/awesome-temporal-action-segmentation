@@ -33,7 +33,7 @@ Temporal Action Segmentation takes as the input an untrimmed video sequence, seg
 ![Task](./task.png)
 
 ## Surveys \& Overviews
-- ATLAS tutorial in conjuction with ECCV2022. [[Tutorial]](https://atlas-eccv22.github.io) [[Talk]](placeholder)
+- ATLAS tutorial in conjuction with ECCV2022. [[Tutorial]](https://nus-cvml.github.io/atlas-eccv22)
 - Temporal Action Segmentation: An Analysis of Modern Techniques
   [[pdf]](https://arxiv.org/pdf/2210.10352.pdf) 
   - Guodong Ding, Fadime Sener, and Angela Yao
