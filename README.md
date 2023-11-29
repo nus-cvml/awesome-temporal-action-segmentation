@@ -102,7 +102,13 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 #### 2023
 - Diffusion Action Segmentation,
   [[pdf]](http://arxiv.org/pdf/2303.17959.pdf)
-    - Daochang Liu, Qiyue Li, AnhDung Dinh, Tingting Jiang, Mubarak Shah, and Chang Xu, *Arxiv 2023*.
+  [[code]](https://github.com/Finspire13/DiffAct)
+    - Daochang Liu, Qiyue Li, AnhDung Dinh, Tingting Jiang, Mubarak Shah, and Chang Xu, *ICCV 2023*.
+- How Much Temporal Long-Term Context is Needed for Action Segmentation?
+  [[pdf]](https://arxiv.org/pdf/2308.11358.pdf)
+  [[code]](https://github.com/ltcontext/ltcontext)
+    - Emad Bahrami, Gianpiero Francesca, and Juergen Gall, *ICCV 2023*.
+
 #### 2022
 - Don't Pour Cereal into Coffee: Differentiable Temporal Logic for Temporal Action Segmentation,
   [[pdf]](https://openreview.net/pdf?id=PCQyUvAmKs)
@@ -189,6 +195,11 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 - Reducing the Label Bias for Timestamp Supervised Temporal Action Segmentation, 
 [[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Reducing_the_Label_Bias_for_Timestamp_Supervised_Temporal_Action_Segmentation_CVPR_2023_paper.pdf)
     - Kaiyuan Liu, Yunheng Li, Shenglan Liu, Chenwei Tan, and Zihang Shao, in *CVPR, 2023*.
+- Timestamp-Supervised Action Segmentation from the Perspective of Clustering,
+  [[pdf]](https://www.ijcai.org/proceedings/2023/77)
+  [[code]](https://github.com/ddz16/TSASPC)
+    - Dazhao Du, Enhan Li, Lingyu Si, Fanjiang Xu, and Fuchun Sun, *IJCAI 2023*.
+
 #### 2022
 - A Generalized &amp; Robust Framework For Timestamp Supervision in Temporal Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2207.10137.pdf)
@@ -233,9 +244,6 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Temporal_Action_Segmentation_From_Timestamp_Supervision_CVPR_2021_paper.pdf)
   [[code]](https://github.com/ZheLi2020/TimestampActionSeg)
     - Zhe Li, Yazan Abu Farha, and Juergen Gall, *CVPR 2021*.
-- Timestamp-Supervised Action Segmentation in the Perspective of Clustering,
-  [[pdf]](https://arxiv.org/pdf/2212.11694.pdf)
-    - Dazhao Du, Enhan Li, Lingyu Si, Fanjiang Xu, and Fuchun Sun, *Arxiv 2021*.
 - Weakly-Supervised Action Segmentation and Alignment via Transcript-Aware Union-of-Subspaces Learning,
   [[pdf]](https://openaccess.thecvf.com/content/ICCV2021/papers/Lu_Weakly-Supervised_Action_Segmentation_and_Alignment_via_Transcript-Aware_Union-of-Subspaces_Learning_ICCV_2021_paper.pdf)
   [[code]](https://github.com/ZijiaLewisLu/ICCV21-TASL)
