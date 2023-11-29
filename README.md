@@ -100,21 +100,28 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 ## Paper List
 ### Fully-Supervised
 #### 2023
+- Activity Grammars for Temporal Action Segmentation,
+  [[pdf]](https://openreview.net/pdf?id=oOXZ5JEjPb)
+  [[code]](http://cvlab.postech.ac.kr/research/KARI)
+    - Dayoung Gong, Joonseok Lee, Deunsol Jung, Suha Kwak, and Minsu Cho, *NeurIPS 2023*.
 - Diffusion Action Segmentation,
   [[pdf]](http://arxiv.org/pdf/2303.17959.pdf)
   [[code]](https://github.com/Finspire13/DiffAct)
     - Daochang Liu, Qiyue Li, AnhDung Dinh, Tingting Jiang, Mubarak Shah, and Chang Xu, *ICCV 2023*.
-- How Much Temporal Long-Term Context is Needed for Action Segmentation?
+- How Much Temporal Long-Term Context is Needed for Action Segmentation?,
   [[pdf]](https://arxiv.org/pdf/2308.11358.pdf)
-  [[code]](https://github.com/ltcontext/ltcontext)
+  [[code]](https://github.com/LTContext/LTContext)
     - Emad Bahrami, Gianpiero Francesca, and Juergen Gall, *ICCV 2023*.
-
+- Streaming Video Temporal Action Segmentation In Real Time,
+  [[pdf]](https://arxiv.org/pdf/2209.13808.pdf)
+  [[code]](https://github.com/Thinksky5124/SVTAS)
+    - Wujun Wen, Yunheng Li, Zhuben Dong, Lin Feng, Wanxiao Yang, and Shenlan Liu, *ISKE 2023*.
 #### 2022
 - Don't Pour Cereal into Coffee: Differentiable Temporal Logic for Temporal Action Segmentation,
   [[pdf]](https://openreview.net/pdf?id=PCQyUvAmKs)
   [[code]](https://diff-tl.github.io)
     - Ziwei Xu, Yogesh S Rawat, Yongkang Wong, Mohan S Kankanhalli, and Mubarak Shah, *NeurIPS 2022*.
-- Maximization and restoration: Action segmentation through dilation passing and temporal reconstruction,
+- Maximization and Restoration: Action Segmentation through Dilation Passing and Temporal Reconstruction,
   [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S003132032200245X)
     - Junyong Park, Daekyum Kim, Sejoon Huh, and Sungho Jo, *PR 2022*.
 - Mcfm: Mutual Cross Fusion Module for Intermediate Fusion-Based Action Segmentation,
@@ -123,6 +130,9 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 - Multistage temporal convolution transformer for action segmentation,
   [[pdf]](https://www.sciencedirect.com/science/article/abs/pii/S0262885622001962)
     - Nicolas Aziere and Sinisa Todorovic, *IVC 2022*.
+- Semantic2Graph: Graph-based Multi-modal Feature Fusion for Action Segmentation in Videos,
+  [[pdf]](https://arxiv.org/pdf/2209.05653v4.pdf)
+    - Junbin Zhang, Pei-Hsuan Tsai, and Meng-Hsun Tsai, *Arxiv 2022*.
 - Uncertainty-Aware Representation Learning for Action Segmentation,
   [[pdf]](https://www.ijcai.org/proceedings/2022/0115.pdf)
     - Lei Chen, Muheng Li, Yueqi Duan, Jie Zhou, and Jiwen Lu, *IJCAI 2022*.
@@ -190,16 +200,17 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[code]](https://github.com/alexanderrichard/squirrel)
     - Alexander Richard and Juergen Gall, *CVPR 2016*.
 ### Weakly-Supervised
-
 #### 2023
-- Reducing the Label Bias for Timestamp Supervised Temporal Action Segmentation, 
-[[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Reducing_the_Label_Bias_for_Timestamp_Supervised_Temporal_Action_Segmentation_CVPR_2023_paper.pdf)
-    - Kaiyuan Liu, Yunheng Li, Shenglan Liu, Chenwei Tan, and Zihang Shao, in *CVPR, 2023*.
-- Timestamp-Supervised Action Segmentation from the Perspective of Clustering,
-  [[pdf]](https://www.ijcai.org/proceedings/2023/77)
+- Is Weakly-supervised Action Segmentation Ready For Human-Robot Interaction ? No , Let ’ s Improve It With Action-union Learning,
+  [[pdf]](https://www.researchgate.net/profile/Fan-Yang-41/publication/372548891_Is_Weakly-supervised_Action_Segmentation_Ready_For_Human-Robot_Interaction_No_Let's_Improve_It_With_Action-union_Learning/links/64be18dab9ed6874a54076e7/Is-Weakly-supervised-Action-Seg)
+    - Fan Yang, Shigeyuki Odashima, Shoichi Masui, and Shan Jiang, *IROS 2023*.
+- Reducing the Label Bias for Timestamp Supervised Temporal Action Segmentation,
+  [[pdf]](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_Reducing_the_Label_Bias_for_Timestamp_Supervised_Temporal_Action_Segmentation_CVPR_2023_paper.pdf)
+    - Kaiyuan Liu, Yunheng Li, Shenglan Liu, Chenwei Tan, and Zihang Shao, *CVPR 2023*.
+- Timestamp-Supervised Action Segmentation in the Perspective of Clustering,
+  [[pdf]](https://www.ijcai.org/proceedings/2023/0077.pdf)
   [[code]](https://github.com/ddz16/TSASPC)
     - Dazhao Du, Enhan Li, Lingyu Si, Fanjiang Xu, and Fuchun Sun, *IJCAI 2023*.
-
 #### 2022
 - A Generalized &amp; Robust Framework For Timestamp Supervision in Temporal Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2207.10137.pdf)
@@ -207,12 +218,14 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
     - Rahul Rahaman, Dipika Singhania, Alexandre Thiery, and Angela Yao, *ECCV 2022*.
 - Hierarchical Modeling for Task Recognition and Action Segmentation in Weakly-Labeled Instructional Videos,
   [[pdf]](https://openaccess.thecvf.com/content/WACV2022/papers/Ghoddoosian_Hierarchical_Modeling_for_Task_Recognition_and_Action_Segmentation_in_Weakly-Labeled_WACV_2022_paper.pdf)
+  [[code]](https://github.com/rezaghoddoosian/Hierarchical-Task-Modeling)
     - Reza Ghoddoosian, Saif Sayed, and Vassilis Athitsos, *WACV 2022*.
 - Robust Action Segmentation from Timestamp Supervision,
   [[pdf]](https://arxiv.org/pdf/2210.06501.pdf)
     - Yaser Souri, Yazan Abu Farha, Emad Bahrami, Gianpiero Francesca, and Juergen Gall, *BMVC 2022*.
 - Semi-Weakly-Supervised Learning of Complex Actions from Instructional Task Videos,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Shen_Semi-Weakly-Supervised_Learning_of_Complex_Actions_From_Instructional_Task_Videos_CVPR_2022_paper.pdf)
+  [[code]](https://github.com/Yuhan-Shen/SWSL)
     - Yuhan Shen and Ehsan Elhamifar, *CVPR 2022*.
 - Set-Supervised Action Learning in Procedural Task Videos via Pairwise Order Consistency,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Lu_Set-Supervised_Action_Learning_in_Procedural_Task_Videos_via_Pairwise_Order_CVPR_2022_paper.pdf)
@@ -231,12 +244,17 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://arxiv.org/pdf/2209.00638.pdf)
     - Nadine Behrmann, S. Alireza Golestaneh, Zico Kolter, Juergen Gall, and Mehdi Noroozi, *ECCV 2022*.
 - Weakly-Supervised Online Action Segmentation in Multi-View Instructional Videos,
-  [[pdf]](https://arxiv.org/pdf/2203.13309.pdf)
+  [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ghoddoosian_Weakly-Supervised_Online_Action_Segmentation_in_Multi-View_Instructional_Videos_CVPR_2022_paper.pdf)
+  [[code]](https://arxiv.org/pdf/2203.13309.pdf)
     - Reza Ghoddoosian, Isht Dwivedi, Nakul Agarwal, Chiho Choi, and Behzad Dariush, *CVPR 2022*.
 #### 2021
 - Anchor-Constrained Viterbi for Set-Supervised Action Segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Anchor-Constrained_Viterbi_for_Set-Supervised_Action_Segmentation_CVPR_2021_paper.pdf)
     - Jun Li and Sinisa Todorovic, *CVPR 2021*.
+- Fast Weakly Supervised Action Segmentation Using Mutual Consistency,
+  [[pdf]](https://arxiv.org/pdf/1904.03116.pdf)
+  [[code]](https://github.com/yassersouri/MuCon)
+    - Yaser Souri, Mohsen Fayyaz, Luca Minciullo, Gianpiero Francesca, and Juergen Gall, *TPAMI 2021*.
 - Learning Discriminative Prototypes with Dynamic Time Warping,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chang_Learning_Discriminative_Prototypes_With_Dynamic_Time_Warping_CVPR_2021_paper.pdf)
     - Xiaobin Chang, Frederick Tung, and Greg Mori, *CVPR 2021*.
@@ -309,6 +327,10 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Bueno-Benito_Leveraging_Triplet_Loss_for_Unsupervised_Action_Segmentation_CVPRW_2023_paper.pdf)
   [[code]](https://github.com/elenabbbuenob/TSA-ActionSeg)
     - Elena Belen Bueno-Benito, Biel Tura Vecino, and Mariella Dimiccoli, *CVPRW 2023*.
+- OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation,
+  [[pdf]](https://arxiv.org/pdf/2309.06276.pdf)
+  [[code]](https://github.com/yl596/OTAS)
+    - Yuerong Li, Zhengrong Xue, and Huazhe Xu, *WACV 2023*.
 - TAEC: Unsupervised action segmentation with temporal-Aware embedding and clustering,
   [[pdf]](https://arxiv.org/pdf/2303.05166.pdf)
     - Wei Lin, Anna Kukleva, Horst Possegger, Hilde Kuehne, and Horst Bischof, *CEURW 2023*.
@@ -325,6 +347,7 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
     - Guodong Ding and Angela Yao, *TMM 2022*.
 - Unsupervised Action Segmentation by Joint Representation Learning and Online Clustering,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2022/papers/Kumar_Unsupervised_Action_Segmentation_by_Joint_Representation_Learning_and_Online_Clustering_CVPR_2022_paper.pdf)
+  [[code]](https://bit.ly/3JKm0JP)
     - Sateesh Kumar, Sanjay Haresh, Awais Ahmed, Andrey Konin, M. Zeeshan Zia, and Quoc Huy Tran, *CVPR 2022*.
 #### 2021
 - Action Shuffle Alternating Learning for Unsupervised Action Segmentation,
@@ -373,6 +396,7 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://arxiv.org/pdf/2207.08653.pdf)
   [[code]](https://github.com/dinggd/semitas)
     - Guodong Ding and Angela Yao, *ECCV 2022*.
+
 
 
 
