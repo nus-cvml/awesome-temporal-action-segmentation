@@ -322,15 +322,17 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[code]](https://github.com/daahuang/lasagne-ectc)
     - De An Huang, Fei-Fei Li, and Juan Carlos Niebles, *ECCV 2016*.
 ### Unsupervised
+#### 2024
+- OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation,
+  [[pdf]](https://arxiv.org/pdf/2309.06276.pdf)
+  [[code]](https://github.com/yl596/OTAS)
+    - Yuerong Li, Zhengrong Xue, and Huazhe Xu, *WACV 2024*.
+
 #### 2023
 - Leveraging triplet loss for unsupervised action segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Bueno-Benito_Leveraging_Triplet_Loss_for_Unsupervised_Action_Segmentation_CVPRW_2023_paper.pdf)
   [[code]](https://github.com/elenabbbuenob/TSA-ActionSeg)
     - Elena Belen Bueno-Benito, Biel Tura Vecino, and Mariella Dimiccoli, *CVPRW 2023*.
-- OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation,
-  [[pdf]](https://arxiv.org/pdf/2309.06276.pdf)
-  [[code]](https://github.com/yl596/OTAS)
-    - Yuerong Li, Zhengrong Xue, and Huazhe Xu, *WACV 2023*.
 - TAEC: Unsupervised action segmentation with temporal-Aware embedding and clustering,
   [[pdf]](https://arxiv.org/pdf/2303.05166.pdf)
     - Wei Lin, Anna Kukleva, Horst Possegger, Hilde Kuehne, and Horst Bischof, *CEURW 2023*.
