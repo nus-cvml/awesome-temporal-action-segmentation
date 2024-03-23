@@ -101,7 +101,7 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 #### 2024
 - FACT: Frame-Action Cross-Attention Temporal Modeling for Efficient Fully-Supervised Action Segmentation,
   [[code]](https://github.com/ZijiaLewisLu/CVPR2024-FACT)
-    - Zijia Lu and Ehsan Elhamifar, *CVPR2024*.
+    - Zijia Lu and Ehsan Elhamifar, *CVPR 2024*.
 #### 2023
 - Activity Grammars for Temporal Action Segmentation,
   [[pdf]](https://openreview.net/pdf?id=oOXZ5JEjPb)
@@ -205,7 +205,7 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 ### Weakly-Supervised
 #### 2024
 - Efficient and Effective Weakly-Supervised Action Segmentation via Action-Transition-Aware Boundary Alignment,
-    - Angchi Xu and Wei-Shi Zheng, *CVPR2024*.
+    - Angchi Xu and Wei-Shi Zheng, *CVPR 2024*.
 #### 2023
 - Is Weakly-supervised Action Segmentation Ready For Human-Robot Interaction ? No , Let ’ s Improve It With Action-union Learning,
   [[pdf]](https://www.researchgate.net/profile/Fan-Yang-41/publication/372548891_Is_Weakly-supervised_Action_Segmentation_Ready_For_Human-Robot_Interaction_No_Let's_Improve_It_With_Action-union_Learning/links/64be18dab9ed6874a54076e7/Is-Weakly-supervised-Action-Seg)
@@ -330,11 +330,11 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 ### Unsupervised
 #### 2024
 - Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation,
-     - Ming Xu and Stephen Gould, *CVPR2024*.
+     - Ming Xu and Stephen Gould, *CVPR 2024*.
 - OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/WACV2024/papers/Li_OTAS_Unsupervised_Boundary_Detection_for_Object-Centric_Temporal_Action_Segmentation_WACV_2024_paper.pdf)
   [[code]](https://github.com/yl596/OTAS)
-     - Yuerong Li, Zhengrong Xue and Huazhe Xu, *WACV2024*.
+     - Yuerong Li, Zhengrong Xue and Huazhe Xu, *WACV 2024*.
 #### 2023
 - Leveraging triplet loss for unsupervised action segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Bueno-Benito_Leveraging_Triplet_Loss_for_Unsupervised_Action_Segmentation_CVPRW_2023_paper.pdf)
@@ -408,12 +408,12 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 ### Online
 #### 2024
 - Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos,
-    - Yuhan Shen and Ehsan Elhamifar, *CVPR2024*.
+    - Yuhan Shen and Ehsan Elhamifar, *CVPR 2024*.
 ### Continual
 #### 2024
 - Coherent Temporal Synthesis for Incremental Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2403.06102.pdf)
-    - Guodong Ding, Hans Golong and Angela Yao, *CVPR2024*.
+    - Guodong Ding, Hans Golong and Angela Yao, *CVPR 2024*.
 
 
 
@@ -424,11 +424,12 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 ## Citation
 If you find this repository helpful in your research, please consider citing our survey as:
 ```
-@article{ding2022temporal,
-    title={Temporal Action Segmentation: An Analysis of Modern Techniques},
-    author={Ding, Guodong and Sener, Fadime and Yao, Angela},
-    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-    year={2023}
+@article{ding2023temporal,
+  title={Temporal action segmentation: An analysis of modern techniques},
+  author={Ding, Guodong and Sener, Fadime and Yao, Angela},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
