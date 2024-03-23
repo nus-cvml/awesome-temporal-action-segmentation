@@ -22,6 +22,8 @@ A curated list of awesome temporal action segmentation resources. Inspired by [a
   - [Weakly-Supervised](#weakly-supervised)
   - [Unsupervsied](#unsupervised)
   - [Semi-Supervised](#semi-supervised)
+  - [Online](#online)
+  - [Continual](#continual)
 
 ## The Task
 Temporal Action Segmentation takes as the input an untrimmed video sequence, segments it along the temporal dimension into clips and infers the semantics of actions in them.
@@ -94,7 +96,12 @@ The Edit Score is computed using the Levenshtein distance $e$, which quantifies 
 $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 
 ## Paper List
+## Paper List
 ### Fully-Supervised
+#### 2024
+- FACT: Frame-Action Cross-Attention Temporal Modeling for Efficient Fully-Supervised Action Segmentation,
+  [[code]](https://github.com/ZijiaLewisLu/CVPR2024-FACT)
+    - Zijia Lu and Ehsan Elhamifar, *CVPR2024*.
 #### 2023
 - Activity Grammars for Temporal Action Segmentation,
   [[pdf]](https://openreview.net/pdf?id=oOXZ5JEjPb)
@@ -196,6 +203,9 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[code]](https://github.com/alexanderrichard/squirrel)
     - Alexander Richard and Juergen Gall, *CVPR 2016*.
 ### Weakly-Supervised
+#### 2024
+- Efficient and Effective Weakly-Supervised Action Segmentation via Action-Transition-Aware Boundary Alignment,
+    - Angchi Xu and Wei-Shi Zheng, *CVPR2024*.
 #### 2023
 - Is Weakly-supervised Action Segmentation Ready For Human-Robot Interaction ? No , Let ’ s Improve It With Action-union Learning,
   [[pdf]](https://www.researchgate.net/profile/Fan-Yang-41/publication/372548891_Is_Weakly-supervised_Action_Segmentation_Ready_For_Human-Robot_Interaction_No_Let's_Improve_It_With_Action-union_Learning/links/64be18dab9ed6874a54076e7/Is-Weakly-supervised-Action-Seg)
@@ -319,11 +329,12 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
     - De An Huang, Fei-Fei Li, and Juan Carlos Niebles, *ECCV 2016*.
 ### Unsupervised
 #### 2024
+- Temporally Consistent Unbalanced Optimal Transport for Unsupervised Action Segmentation,
+     - Ming Xu and Stephen Gould, *CVPR2024*.
 - OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation,
-  [[pdf]](https://arxiv.org/pdf/2309.06276.pdf)
+  [[pdf]](https://openaccess.thecvf.com/content/WACV2024/papers/Li_OTAS_Unsupervised_Boundary_Detection_for_Object-Centric_Temporal_Action_Segmentation_WACV_2024_paper.pdf)
   [[code]](https://github.com/yl596/OTAS)
-    - Yuerong Li, Zhengrong Xue, and Huazhe Xu, *WACV 2024*.
-
+     - Yuerong Li, Zhengrong Xue and Huazhe Xu, *WACV2024*.
 #### 2023
 - Leveraging triplet loss for unsupervised action segmentation,
   [[pdf]](https://openaccess.thecvf.com/content/CVPR2023W/L3D-IVU/papers/Bueno-Benito_Leveraging_Triplet_Loss_for_Unsupervised_Action_Segmentation_CVPRW_2023_paper.pdf)
@@ -394,6 +405,16 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://arxiv.org/pdf/2207.08653.pdf)
   [[code]](https://github.com/dinggd/semitas)
     - Guodong Ding and Angela Yao, *ECCV 2022*.
+### Online
+#### 2024
+- Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos,
+    - Yuhan Shen and Ehsan Elhamifar, *CVPR2024*.
+### Continual
+#### 2024
+- Coherent Temporal Synthesis for Incremental Action Segmentation,
+  [[pdf]](https://arxiv.org/pdf/2403.06102.pdf)
+    - Guodong Ding, Hans Golong and Angela Yao, *CVPR2024*.
+
 
 
 
