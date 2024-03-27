@@ -43,6 +43,10 @@ There are multiple datasets that have been used to benchmark the perfomance of t
 - The Language of Actions: Recovering the Syntax and Semantics of Goal-Directed Human Activities 
   [[pdf]](https://openaccess.thecvf.com/content_cvpr_2014/papers/Kuehne_The_Language_of_2014_CVPR_paper.pdf) 
   - Hilde Kuehne, Ali Arslan, and Thomas Serre, *CVPR 2014*.
+  <details close>
+    <summary>Read Abstract</summary>
+    This paper describes a framework for modeling human activities as temporally structured processes. Our approach is motivated by the inherently hierarchical nature of human activities and the close correspondence between human actions and speech: We model action units using Hidden Markov Models, much like words in speech. These action units then form the building blocks to model complex human activities as sentences using an action grammar. To evaluate our approach, we collected a large dataset of daily cooking activities: The dataset includes a total of 52 participants, each performing a total of 10 cooking activities in multiple real-life kitchens, resulting in over 77 hours of video footage. We evaluate the HTK toolkit, a state-of-the-art speech recognition engine, in combination with multiple video feature descriptors, for both the recognition of cooking activities (e.g., making pancakes) as well as the semantic parsing of videos into action units (e.g., cracking eggs). Our results demonstrate the benefits of structured temporal generative approaches over existing discrimina-tive approaches in coping with the complexity of human daily life activities.
+  </details>
 
 targets recording videos ''in the wild'', in 18 different kitchens. The participants are not given any scrips and the recordings are unrehearsed and undirected. The dataset is composed of the 10 breakfast-related activities. This dataset is recorded with 52 participants with multiple cameras, varies from 3 to 5, all from a third-person point of view. There are 1712 videos, when accounting for the multi-camera views.
 
@@ -50,9 +54,12 @@ targets recording videos ''in the wild'', in 18 different kitchens. The particip
 - Learning to Recognize Objects in Egocentric Activities 
   [[pdf]](https://arxiv.org/pdf/2102.08065.pdf) 
   - Alireza Fatih, Xiaofeng Ren, and M James Rehg, *CVPR 2011*.
+  <details close>
+    <summary>Read Abstract</summary>
+    This paper addresses the problem of learning object models from egocentric video of household activities, us- ing extremely weak supervision. For each activity sequence, we know only the names of the objects which are present within it, and have no other knowledge regarding the ap- pearance or location of objects. The key to our approach is a robust, unsupervised bottom up segmentation method, which exploits the structure ofthe egocentric domain to par- tition each frame into hand, object, and background cat- egories. By using Multiple Instance Learning to match object instances across sequences, we discover and lo- calize object occurrences. Object representations are re- fined through transduction and object-level classifiers are trained. We demonstrate encouraging results in detecting novel object instances using models produced by weakly- supervised learning.
+  </details>
 
-contains 28 videos recorded in a single kitchen from seven procedural activities. 
-The videos are recorded with a camera mounted on a cap, worn by four participants. 
+contains 28 videos recorded in a single kitchen from seven procedural activities. The videos are recorded with a camera mounted on a cap, worn by four participants. 
 
 
 ### 50Salads
@@ -95,7 +102,6 @@ The Edit Score is computed using the Levenshtein distance $e$, which quantifies 
 
 $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 
-## Paper List
 ## Paper List
 ### Fully-Supervised
 #### 2024
@@ -374,37 +380,69 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
   [[pdf]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chen_Action_Segmentation_With_Joint_Self-Supervised_Temporal_Domain_Adaptation_CVPR_2020_paper.pdf)
   [[code]](https://github.com/cmhungsteve/SSTDA)
     - Min-Hung Chen, Baopu Li, Yingze Bao, Ghassan AlRegib, and Zsolt Kira, *CVPR 2020*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    Despite the recent progress of fully-supervised action segmentation techniques, the performance is still not fully satisfactory. One main challenge is the problem of spatiotemporal variations (e.g. different people may perform the same activity in various ways). Therefore, we exploit unlabeled videos to address this problem by reformulating the action segmentation task as a cross-domain problem with domain discrepancy caused by spatio-temporal variations. To reduce the discrepancy, we propose Self-Supervised Temporal Domain Adaptation (SSTDA), which contains two self-supervised auxiliary tasks (binary and sequential domain prediction) to jointly align cross-domain feature spaces embedded with local and global temporal dynamics, achieving better performance than other Domain Adaptation (DA) approaches. On three challenging benchmark datasets (GTEA, 50Salads, and Breakfast), SSTDA outperforms the current state-of-the-art method by large margins (e.g. for the F1@25 score, from 59.6% to 69.1% on Breakfast, from 73.4% to 81.5% on 50Salads, and from 83.6% to 89.1% on GTEA), and requires only 65% of the labeled training data for comparable performance, demonstrating the usefulness of adapting to unlabeled target videos across variations. The source code is available at https://github.com/cmhungsteve/SSTDA.
+    </details>
 #### 2019
 - Unsupervised learning of action classes with continuous temporal embedding,
   [[pdf]](https://arxiv.org/pdf/1904.04189.pdf)
   [[code]](https://github.com/annusha/unsup_temp_embed)
     - Anna Kukleva, Hilde Kuehne, Fadime Sener, and Jurgen Gall, *CVPR 2019*.
-- Unsupervised procedure learning via joint dynamic summarization,
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    The task of temporally detecting and segmenting actions in untrimmed videos has seen an increased attention recently. One problem in this context arises from the need to define and label action boundaries to create annotations for training which is very time and cost intensive. To address this issue, we propose an unsupervised approach for learning action classes from untrimmed video sequences. To this end, we use a continuous temporal embedding of framewise features to benefit from the sequential nature of activities. Based on the latent space created by the embedding, we identify clusters of temporal segments across all videos that correspond to semantic meaningful action classes. The approach is evaluated on three challenging datasets, namely the Breakfast dataset, YouTube Instructions, and the 50Salads dataset. While previous works assumed that the videos contain the same high level activity, we furthermore show that the proposed approach can also be applied to a more general setting where the content of the videos is unknown.
+    </details>
+- Unsupervised Procedure Learning via Joint Dynamic Summarization,
   [[pdf]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Elhamifar_Unsupervised_Procedure_Learning_via_Joint_Dynamic_Summarization_ICCV_2019_paper.pdf)
     - Ehsan Elhamifar and Zwe Naing, *ICCV 2019*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    We address the problem of unsupervised procedure learning from unconstrained instructional videos. Our goal is to produce a summary of the procedure key-steps and their ordering needed to perform a given task, as well as localization of the key-steps in videos. We develop a collaborative sequential subset selection framework, where we build a dynamic model on videos by learning states and transitions between them, where states correspond to different subactivities, including background and procedure steps. To extract procedure key-steps, we develop an optimization framework that finds a sequence of a small number of states that well represents all videos and is compatible with the state transition model. Given that our proposed optimization is non-convex and NP-hard, we develop a fast greedy algorithm whose complexity is linear in the length of the videos and the number of states of the dynamic model, hence, scales to large datasets. Under appropriate conditions on the transition model, our proposed formulation is approximately submodular, hence, comes with performance guarantees. We also present ProceL, a new multimodal dataset of 47.3 hours of videos and their transcripts from diverse tasks, for procedure learning evaluation. By extensive experiments, we show that our framework significantly improves the state of the art performance.
+    </details>
 #### 2018
 - Unsupervised Learning and Segmentation of Complex Activities from Video,
   [[pdf]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sener_Unsupervised_Learning_and_CVPR_2018_paper.pdf)
   [[code]](https://github.com/Annusha/slim_mallow)
     - Fadime Sener and Angela Yao, *CVPR 2018*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    This paper presents a new method for unsupervised seg-mentation of complex activities from video into multiple steps, or sub-activities, without any textual input. We propose an iterative discriminative-generative approach which alternates between discriminatively learning the appearance of sub-activities from the videos' visual features to sub-activity labels and generatively modelling the temporal structure of sub-activities using a Generalized Mallows Model. In addition, we introduce a model for background to account for frames unrelated to the actual activities. Our approach is validated on the challenging Breakfast Actions and Inria Instructional Videos datasets and outperforms both unsupervised and weakly-supervised state of the art.
+    </details>
 #### 2016
 - Unsupervised learning from narrated instruction videos,
   [[pdf]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Alayrac_Unsupervised_Learning_From_CVPR_2016_paper.pdf)
     - Jean-Baptiste Alayrac, Piotr Bojanowski, Nishant Agrawal, Josef Sivic, Ivan Laptev, and Simon Lacoste-Julien, *CVPR 2016*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    We address the problem of automatically learning the main steps to complete a certain task, such as changing a car tire, from a set of narrated instruction videos. The contributions of this paper are three-fold. First, we develop a new unsupervised learning approach that takes advantage of the complementary nature of the input video and the associated narration. The method solves two clustering problems, one in text and one in video, applied one after each other and linked by joint constraints to obtain a single coherent sequence of steps in both modalities. Second, we collect and annotate a new challenging dataset of real-world instruction videos from the Internet. The dataset contains about 800,000 frames for five different tasks1 that include complex interactions between people and objects, and are captured in a variety of indoor and outdoor settings. Third, we experimentally demonstrate that the proposed method can automatically discover, in an unsupervised manner, the main steps to achieve the task and locate the steps in the input videos.
+    </details>
 #### 2015
 - Unsupervised Semantic Parsing of Video Collections,
   [[pdf]](https://openaccess.thecvf.com/content_iccv_2015/papers/Sener_Unsupervised_Semantic_Parsing_ICCV_2015_paper.pdf)
     - Ozan Sener, Amir R. Zamir, Silvio Savarese, and Ashutosh Saxena, *ICCV 2015*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    Human communication typically has an underlying structure. This is reflected in the fact that in many user generated videos, a starting point, ending, and certain objective steps between these two can be identified. In this paper, we propose a method for parsing a video into such semantic steps in an unsupervised way. The proposed method is capable of providing a semantic "storyline" of the video composed of its objective steps. We accomplish this using both visual and language cues in a joint generative model. The proposed method can also provide a textual description for each of the identified semantic steps and video segments. We evaluate this method on a large number of complex YouTube videos and show results of unprecedented quality for this intricate and impactful problem.
+    </details>
 ### Semi-Supervised
 #### 2022
 - Iterative Contrast-Classify for Semi-supervised Temporal Action Segmentation,
   [[pdf]](https://ojs.aaai.org/index.php/AAAI/article/view/20124/19883)
   [[code]](https://github.com/dipika-singhania/ICC-Semi-Supervised-TAS)
     - Dipika Singhania, Rahul Rahaman, and Angela Yao, *AAAI 2022*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    Temporal action segmentation classifies the action of each frame in (long) video sequences. Due to the high cost of frame-wise labeling, we propose the first semi-supervised method for temporal action segmentation. Our method hinges on unsupervised representation learning, which, for temporal action segmentation, poses unique challenges. Actions in untrimmed videos vary in length and have unknown labels and start/end times. Ordering of actions across videos may also vary. We propose a novel way to learn frame-wise representations from temporal convolutional networks (TCNs) by clustering input features with added time-proximity conditions and multi-resolution similarity. By merging representation learning with conventional supervised learning, we develop an "Iterative Contrast-Classify (ICC)" semi-supervised learning scheme. With more labelled data, ICC progressively improves in performance; ICC semi-supervised learning, with 40% labelled videos, performs similarly to fully-supervised counterparts. Our ICC improves MoF by +1.8, +5.6, +2.5% on Breakfast, 50Salads, and GTEA respectively for 100% labelled videos.
+    </details>
 - Leveraging Action Affinity and Continuity for Semi-supervised Temporal Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2207.08653.pdf)
   [[code]](https://github.com/dinggd/semitas)
     - Guodong Ding and Angela Yao, *ECCV 2022*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    We present a semi-supervised learning approach to the temporal action segmentation task. The goal of the task is to temporally detect and segment actions in long, untrimmed procedural videos, where only a small set of videos are densely labelled, and a large collection of videos are unlabelled. To this end, we propose two novel loss functions for the unlabelled data: an action affinity loss and an action continuity loss. The action affinity loss guides the unlabelled samples learning by imposing the action priors induced from the labelled set. Action continuity loss enforces the temporal continuity of actions, which also provides frame-wise classification supervision. In addition, we propose an Adaptive Boundary Smoothing (ABS) approach to build coarser action boundaries for more robust and reliable learning. The proposed loss functions and ABS were evaluated on three benchmarks. Results show that they significantly improved action segmentation performance with a low amount (5% and 10%) of labelled data and achieved comparable results to full supervision with 50% labelled data. Furthermore, ABS succeeded in boosting performance when integrated into fully-supervised learning.
+    </details>
 ### Online
 #### 2024
 - Progress-Aware Online Action Segmentation for Egocentric Procedural Task Videos,
@@ -414,6 +452,10 @@ $\text{Edit} = \left(1-\frac{e(X,Y)}{\text{max}(|X|,|Y|)} \right)\cdot 100$
 - Coherent Temporal Synthesis for Incremental Action Segmentation,
   [[pdf]](https://arxiv.org/pdf/2403.06102.pdf)
     - Guodong Ding, Hans Golong and Angela Yao, *CVPR 2024*.
+    <details close>
+    <summary><i>Read Abstract</i></summary>
+    Data replay is a successful incremental learning technique for images. It prevents catastrophic forgetting by keeping a reservoir of previous data, original or synthesized, to ensure the model retains past knowledge while adapting to novel concepts. However, its application in the video domain is rudimentary, as it simply stores frame exemplars for action recognition. This paper presents the first exploration of video data replay techniques for incremental action segmentation, focusing on action temporal modeling. We propose a Temporally Coherent Action (TCA) model, which represents actions using a generative model instead of storing individual frames. The integration of a conditioning variable that captures temporal coherence allows our model to understand the evolution of action features over time. Therefore, action segments generated by TCA for replay are diverse and temporally coherent. In a 10-task incremental setup on the Breakfast dataset, our approach achieves significant increases in accuracy for up to 22% compared to the baselines.
+    </details>
 
 
 
